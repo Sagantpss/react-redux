@@ -62,9 +62,9 @@ function Student() {
                     </tr>
                 </thead>
                 {
-                    students.map((item, i) =>
-                        <tbody>
-                            <tr key={i}>
+                    students.map((item,i) =>
+                        <tbody key={i+1}>
+                            <tr>
                                 <td>{i+1}</td>
                                 <td>{item.name}</td>
                                 <td>{item.age}</td>
@@ -74,7 +74,7 @@ function Student() {
                                     <tbody>
                                     {
                                     item.address.map((data,j) =>
-                                        <tr key={j}>
+                                        <tr key={data.Hno+j}>
                                             <td>{data.Hno}</td>
                                             <td>{data.city}</td>
                                             <td>{data.state}</td>

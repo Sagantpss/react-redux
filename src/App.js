@@ -56,6 +56,7 @@ function App() {
 
   return (
     <div className="App">
+      <ContextApi info={{name:'Sagan Kumar', age:28, email:'sagan@gmail.com'}}/>
       <Student /> <br></br>
       <h3>useRef Hook</h3>
       <input type='text' ref={inputRef} />
@@ -66,8 +67,6 @@ function App() {
           <Employees data={item}/>
         )
       }
-
-      <ContextApi/>
       
       <header className="App-header">
         <Users name={name} />

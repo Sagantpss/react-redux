@@ -38,7 +38,7 @@ root.render(
         <Route path='/login' element={<Login />} />
         <Route path='/apipage' element={<ApiPage />} />
         <Route path='/previousprops' element={<PreviousProps />} />
-        <Route path='/contextapi' element={<ContextApi/>} />
+        <Route path='/redux' element={<ContextApi/>} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
