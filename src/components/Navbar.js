@@ -17,7 +17,7 @@ function Navbar() {
                         <NavDropdown.Item href="/apipage">API</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/previousprops">Previous Props</NavDropdown.Item>
-                        <NavDropdown.Item href="/redux">Redux</NavDropdown.Item>
+                        <NavDropdown.Item href="/react-redux">Redux</NavDropdown.Item>
                     </NavDropdown>
                 </div>
             </nav>

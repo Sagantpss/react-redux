@@ -17,7 +17,7 @@ import Login from './components/Login';
 import Protected from './components/Protected';
 import ApiPage from './components/ApiPage';
 import PreviousProps from './components/PreviousProps';
-import ContextApi from './components/ContextApi';
+import ReactRedux from './ReactRedux';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,8 +37,8 @@ root.render(
         </Route>
         <Route path='/login' element={<Login />} />
         <Route path='/apipage' element={<ApiPage />} />
+        <Route path='/react-redux' element={<ReactRedux />} />
         <Route path='/previousprops' element={<PreviousProps />} />
-        <Route path='/redux' element={<ContextApi/>} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
